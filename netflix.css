@@ -1,0 +1,78 @@
+body {
+    background-image: url(./images/background_image.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    /* box-sizing: border-box; */
+}
+#container {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 1% auto;
+    width: 400px;
+    /* height: 50%; */
+    /* text-align: justify; */
+}
+
+.box {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 1px 0;
+    box-sizing: border-box;
+  }
+
+input[type=text],input[type=number], input[type=email], select {
+    width: 90%;
+    padding: 10px;
+}
+
+#content {
+    padding: 6px;
+}
+
+#baslik {
+    text-align: center;
+    margin-top: 100px;
+}
+#title {
+    height: 35px;
+    color: red;
+    font-family: 'Bowlby One', cursive;
+    font-variant: small-caps;
+}
+#description {
+    font-family: 'Bowlby One', cursive;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+span {
+    color: white;
+    font-variant: small-caps;
+}
+#gender {
+margin: 1px 4px;
+}
+
+#movie-type {
+    margin: 1px 4px;
+}
+
+#submit { 
+    /* text-align: center; */
+    background-color: #ef233c;
+    color: white; 
+}
+input[type=submit] {
+    width: 100px;
+    padding: 7px;
+    margin: 10px 150px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#submit:hover {
+    background-color: #ef233d;
+    color: black;
+}
+/* #send {
+    margin-bottom: 10px;
+} */
